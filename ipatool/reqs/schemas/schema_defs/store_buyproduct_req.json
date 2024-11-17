@@ -21,12 +21,6 @@
     "kbsync": {
       "type": "string"
     },
-    "sbsync": {
-      "type": "string"
-    },
-    "afds": {
-      "type": "string"
-    },
     "machineName": {
       "type": "string"
     },
@@ -81,13 +75,8 @@
     },
     "hasDoneAgeCheck": {
       "type": "string"
-    },
-    "hasConfirmedPaymentSheet": {
-      "type": "string"
-    },
-    "asn": {
-      "type": "string"
     }
+    
   },
   "required": [
     "guid",
@@ -101,8 +90,6 @@
   "optional": [
     "ageCheck",
     "hasBeenAuthedForBuy",
-    "hasConfirmedPaymentSheet",
-    "asn",
     "isInApp",
     
     "machineName",
